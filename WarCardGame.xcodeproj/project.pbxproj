@@ -104,10 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				8B5B6F422C42E9D9002346EE /* WarCardGameApp.swift */,
-				8B5B6F722C42ECFA002346EE /* ClassicWar.swift */,
-				8B5B6F7C2C42EEEC002346EE /* ClassicWarView.swift */,
-				8B8C06BC2C6003D900180B62 /* ContentView.swift */,
-				8B5B6F702C42EC8B002346EE /* GameSelectionView.swift */,
+				8B8C06BE2C60046200180B62 /* Models */,
+				8B8C06C02C60047400180B62 /* Views */,
 				8B5B6F462C42E9D9002346EE /* Item.swift */,
 				8B5B6F482C42E9DA002346EE /* Assets.xcassets */,
 				8B5B6F4A2C42E9DA002346EE /* WarCardGame.entitlements */,
@@ -139,6 +137,24 @@
 				8B5B6F622C42E9DA002346EE /* WarCardGameUITestsLaunchTests.swift */,
 			);
 			path = WarCardGameUITests;
+			sourceTree = "<group>";
+		};
+		8B8C06BE2C60046200180B62 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B5B6F722C42ECFA002346EE /* ClassicWar.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B8C06C02C60047400180B62 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B8C06BC2C6003D900180B62 /* ContentView.swift */,
+				8B5B6F702C42EC8B002346EE /* GameSelectionView.swift */,
+				8B5B6F7C2C42EEEC002346EE /* ClassicWarView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

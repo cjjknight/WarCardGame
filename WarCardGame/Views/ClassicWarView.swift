@@ -18,8 +18,14 @@ struct ClassicWarView: View {
                 HStack {
                     Spacer()
                     Image(playerCard)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 150, height: 225) // Adjusted size for larger cards
                     Spacer()
                     Image(cpuCard)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 150, height: 225) // Adjusted size for larger cards
                     Spacer()
                 }
                 Spacer()

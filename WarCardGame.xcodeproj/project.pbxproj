@@ -53,6 +53,7 @@
 		8B5B6F722C42ECFA002346EE /* ClassicWar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicWar.swift; sourceTree = "<group>"; };
 		8B5B6F7C2C42EEEC002346EE /* ClassicWarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicWarView.swift; sourceTree = "<group>"; };
 		8B8C06BC2C6003D900180B62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B8C06C12C60052C00180B62 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,7 @@
 		8B5B6F412C42E9D9002346EE /* WarCardGame */ = {
 			isa = PBXGroup;
 			children = (
+				8B8C06C12C60052C00180B62 /* ReadMe.md */,
 				8B5B6F422C42E9D9002346EE /* WarCardGameApp.swift */,
 				8B8C06BE2C60046200180B62 /* Models */,
 				8B8C06C02C60047400180B62 /* Views */,
